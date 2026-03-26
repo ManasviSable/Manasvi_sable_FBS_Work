@@ -1,0 +1,6 @@
+#Calculate the cost of painting the following building’s walls (both interior andexterior). You need to accept area (one wall) and cost of both interior andexterior wall.(Note: 1. Below diagram is of two joint rooms.2. It is upper view of building.)
+area = float(input("Enter the area of one wall: "))
+cost_interior = float(input("Enter the cost of painting interior wall per square foot: "))
+cost_exterior = float(input("Enter the cost of painting exterior wall per square foot: "))
+total_cost = (4 * area * cost_interior) + (4 * area * cost_exterior)
+print("The total cost of painting the building's walls is:", total_cost)
